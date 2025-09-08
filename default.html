@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+
+	<head>
+		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+		
+		<!-- Importing CSS Files -->
+		<link rel="stylesheet" href="css/core.css"/>
+		
+		<style type="text/css">
+			.auto-style1 {
+					text-align: center;
+				}
+			.auto-style2 {
+				vertical-align: middle;
+			}
+			.auto-style3 {
+				text-align: right;
+			}
+			
+			table {
+				border-spacing: 50px;
+			}
+			
+
+			.carrusel {
+		      width: 1152px;
+		      overflow: hidden;
+		      margin: auto;
+		      border: 3px solid #000;
+		      border-radius: 10px;
+		    }
+		
+		    .imagenes {
+		      display: flex;
+		      width: 3456px; /* 4 imágenes de 300px */
+		      animation: deslizar 30s infinite linear;
+		    }
+		
+		    .imagenes img {
+		      width: 1152px;
+		      height: 400px;
+		      object-fit: cover;
+		    }
+		
+		    @keyframes deslizar {
+		      0% { transform: translateX(0); }
+		      25% { transform: translateX(-1152px); }
+		      50% { transform: translateX(-2304px); }
+		      100% { transform: translateX(0); }
+		    }
+		</style>
+
+	</head>
+
+
+
+	<body bgcolor="#7B1B38">
+	
+		<!-- Imagen y Titulo -->
+		<table style="width: 100%">
+			<tr>
+				<td class="auto-style1" style="width: 188px">
+					<img alt="logo cine belgrano" src="res/Cine_Belgrano.jpg" height="86" />
+				</td>
+				
+				<td>
+					<h1 class="Title">cine belgrano</h1>
+				</td>
+				
+				<td class="auto-style3" style="width: 188px">
+					<img alt="Logo IG" src="res/Instagram Logo.png" height="90" style="float: right" width="90" class="auto-style2" /><br />
+					<br />
+					<span lang="en-us">@cinebelgrano</span>
+				</td>
+			</tr>
+		</table>
+			
+		<!-- Peliculas Destacadas -->
+		<div class="carrusel">
+		    <div class="imagenes">
+		      <img src="res/carrusel/Karate.png" alt="Pelicula 1"/>
+		      <img src="res/carrusel/Lilo.png" alt="Pelicula 2"/>
+		      <img src="res/carrusel/thunder.png" alt="Pelicula 3"/>
+		    </div>
+		  </div>
+
+		
+		<!-- Catalogo -->
+		<table style="width:100%">
+			<tr>
+				<td>
+					<h1 class="Title">cartelera</h1>
+				</td>
+			</tr>
+		</table>
+		
+		<table style="width:100%">
+			<tr align="center">
+				<td>
+					<a href="Avenger.html">
+						<img alt="Avengers" src="res/peliculas/Avengers.jpg" class="ImagenesCatalogo"/>
+					</a>
+				</td>
+				
+				<td>
+					<a href="Karate Kid.html">
+						<img alt="Karate Kid" src="res/peliculas/Karate_Kid.jpg" class="ImagenesCatalogo" />
+					</a>
+				</td>
+				
+				<td>
+					<a href="Mision Imposible.html">
+						<img alt="Mision Imposible" src="res/peliculas/Mision_Imposible.jpg" class="ImagenesCatalogo" />
+					</a>
+				</td>
+			</tr>
+			
+			<tr align="center">
+				<td>
+					<a href="Destino Final.html">
+						<img alt="Destino Final" src="res/peliculas/Destino_Final.jpg" class="ImagenesCatalogo"/>
+					</a>
+				</td>
+				
+				<td>
+					<a href="F1.html">
+						<img alt="F1" src="res/peliculas/F1.jpg" class="ImagenesCatalogo"/>
+					</a>
+				</td>
+				
+				<td>
+					<a href="Lilo y Stitch.html">
+						<img alt="Lilo y Stitch" src="res/peliculas/Lilo_Y_Stitch.jpg" class="ImagenesCatalogo"/>
+					</a>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

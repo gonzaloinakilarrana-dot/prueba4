@@ -1,0 +1,60 @@
+﻿							/* Text Classes */
+.Title {
+	text-transform: uppercase;
+	text-align: center;
+	
+	font-family: "Arial Rounded MT Bold";
+	font-size:45px;
+}
+
+.Subtitulo {
+	text-transform: uppercase;
+	text-align: center;
+	
+	font-family: "Arial Rounded MT Bold";
+	font-size:xx-large;
+
+}
+
+.Text {
+	text-transform: uppercase;
+	
+	font-family: "Arial Rounded MT Bold";
+	font-size: medium;
+}
+
+
+							/* Button Classes */
+.Button {
+	text-transform: uppercase;
+
+	font-family: "Arial Rounded MT Bold";
+	font-size: large;
+}
+
+.MoveBottomRightButton {
+	margin: 0;
+	position: absolute;
+	
+	top: 99%;
+	left: 99%;
+	-ms-transform: translate(-99%, -99%);
+	transform: translate(-99%, -99%);
+}
+
+.MoveBottomLeftButton {
+	margin: 0;
+	position: absolute;
+	
+	top: 99%;
+	left: 1%;
+	-ms-transform: translate(-1%, -99%);
+	transform: translate(-1%, -99%);
+}
+
+							/* image Classes */
+
+.ImagenesCatalogo {
+	border:thick black solid;
+	
+}
